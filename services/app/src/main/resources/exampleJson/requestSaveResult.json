@@ -1,0 +1,26 @@
+
+  [
+    {
+      "question": "Name and LastName?",
+      "type": "TEXT",
+      "answer": [
+        "Kozhiev Taimyraz Kazbekovich"
+      ]
+    },
+    {
+      "question": "Gender?",
+      "type": "WITH_ONE_CHOICE",
+      "answer": [
+        "man"
+      ]
+    },
+    {
+      "question": "hobby?",
+      "type": "WITH_MULTIPLE_CHOICE",
+      "answer": [
+        "car",
+        "sport",
+        "eating food"
+      ]
+    }
+  ]

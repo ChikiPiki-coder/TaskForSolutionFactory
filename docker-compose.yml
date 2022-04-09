@@ -1,0 +1,27 @@
+version: '3.8'
+services:
+  db:
+    image: 'postgres:13.1-alpine'
+    container_name: db
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_HOST_AUTH_METHOD=trust
+      - POSTGRES_DB=java
+      - POSTGRES_DB=postgres'
+
+
+  app:
+    build:
+      context: services/app
+      dockerfile: Dockerfile.development
+    image: 'task-for-solution-factory'
+    ports:
+      - 8082:8082
+    depends_on:
+      - db
+
+
+volumes:
+  db-data:

@@ -1,0 +1,24 @@
+{
+  "status": "Admin",
+  "login": "Tamik",
+  "password": "password"
+}
+
+{
+  "status": "Guest",
+  "login": "",
+  "password": ""
+}
+
+{
+  "status": "Admin",
+  "login": "Hackerman",
+  "password": "Hackerman"
+}
+
+{
+  "status": "Admin",
+  "login": "Chikipiki",
+  "password": "ChikPik"
+}
+
